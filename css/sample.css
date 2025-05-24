@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 32px;
+    color: white;
+    background-image: url('../images/backg.jpeg'); /* 修正済みの相対パス */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header{
+    /* background-color: #fff;
+    border-bottom: 1px solid #ccc; */
+    text-align: center;
+    color: white;
+    padding: 30px 0;
+}
+
+main{
+    /* border-bottom:1px solid #ccc; */
+}
+
+footer{
+    background-color: #fff;
+    /* border-bottom:1px solid #ccc; */
+    text-align: center;
+}
+
+p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px;
+}
+
+.myhands{
+    font-size: 40px;
+    text-align: center;
+    padding : 10px 10px 10px 10px;
+}
+
+ul {
+    padding: 0;
+    display: flex; /* フレックスボックスを使用 */
+    justify-content: center; /* 子要素を中央揃え */
+    gap: 10px; /* 子要素間の空間を設定 */
+    list-style: none; /* デフォルトのリストスタイルを無効化 */
+    margin: 30px 0; /* 上下に余白を追加 */
+}
+
+li {
+    font-size: 32px;
+    text-align: center;
+    cursor: pointer;
+    flex: 0 0 auto; /* 子要素のサイズを固定 */
+    margin: 15px; /* 各ボタンに余白を追加 */
+}
+ /* li:hover{
+    background: #0066CC;
+    color:#fff;
+} */
+
+ul li img {
+    width: 140px; /* リスト内の画像の幅を指定 */
+    height: 140px; /* リスト内の画像の高さを指定 */
+}
+
+.pchands{
+    font-size: 40px;
+    text-align: center;
+    padding : 10px 10px 10px 10px;
+}
+
+#pc_hands{
+    font-size: 200%;
+    text-align: center;
+    /* height: 200px; */
+}
+
+#pc_hands img {
+    width: 140px;
+    height: 140px;
+    /* margin: 0 auto; 画像を中央揃え */
+}
+
+#judgment{
+    font-size: 150%;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+button {
+    font-size: 0; /* ボタン内のテキストを非表示 */
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+button img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto; /* 画像を中央揃え */
+}
