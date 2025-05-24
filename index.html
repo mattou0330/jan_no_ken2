@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="css/sample.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>じゃんの拳2</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="images/h1.png"
+        alt="タイトル画像"
+        style="width: 30%; height: auto"
+      />
+    </header>
+
+    <!-- <div class="myhands">お前は何を出す！？</div> -->
+    <main>
+      <ul>
+        <li>
+          <button id="gu_btn"><img src="images/gu.png" alt="グー" /></button>
+        </li>
+        <li>
+          <button id="cho_btn">
+            <img src="images/cho.png" alt="チョキ" />
+          </button>
+        </li>
+        <li>
+          <button id="par_btn"><img src="images/par.png" alt="パー" /></button>
+        </li>
+      </ul>
+      <!-- <div class="pchands">敵の選んだのは…</div> -->
+      <div id="pc_hands">
+        <img
+          id="pc_hand_img"
+          src=""
+          alt="コンピュータの手"
+          style="display: none"
+        />
+      </div>
+
+      <div id="judgment"></div>
+    </main>
+
+    <footer></footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
